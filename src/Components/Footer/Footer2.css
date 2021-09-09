@@ -1,0 +1,19 @@
+.footer2{
+    display: flex;
+    flex-direction: column;
+    margin:0px auto;
+    color: #22262A;
+}
+
+h6{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+
+}
+.footer-para{
+    margin-bottom:4px;
+    font-size: 12px;
+
+}

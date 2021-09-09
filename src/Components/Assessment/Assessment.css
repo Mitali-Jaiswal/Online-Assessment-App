@@ -1,0 +1,135 @@
+.assessment{
+    background-color: #FFFFFF;
+    width: 60%;
+    margin-left: 75px;
+    border: 0.5px solid #C2C2C2;
+    height: 520px;
+    margin-top: 50px;
+}
+
+.nav{
+    background-color: #F8F8F8;
+    height: 40px;
+    color: #28C8AB;
+    padding-top: 20px ;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.nav2{
+    background-color: #F8F8F8;
+    height: 50px;
+    color: #424242;
+    padding-top: 20px ;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 28px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.question{
+    color: #858585;
+    margin-left: 20px;
+    
+}
+.question h2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.options{
+    margin-left: 30px;
+    border: 2px solid lightgray;
+    width: 180px;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+.selected {
+    background: #28C8AB !important;
+}
+.previous{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #C2C2C2;
+    border: 0px;
+    padding: 12px 20px ;
+    color: #FFFFFF;
+}
+
+.next{
+    margin-left: 50px;
+    background-color: #1A67DD;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 12px 50px;
+}
+
+.submit{
+    margin-left: 50px;
+    background-color: #F3364C;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 12px 50px;
+}
+
+.ques{
+    margin: 20px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F9FF;
+    color: #283B75;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+.text{
+    margin-left: 30px;
+    font-size:18px ;
+}
+.num{
+    margin-right: 50px;
+    font-size: 22px;
+}
+
+
+.correct{
+    margin: 20px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFEABE;
+    color: #FDB827;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+
+.incorrect{
+    margin: 20px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF3F5;
+    color: #F3364C;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+.total{
+    margin: 30px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A67DD;
+    color: #F7F7F7;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}

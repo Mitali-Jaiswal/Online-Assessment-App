@@ -1,0 +1,23 @@
+.Home{
+    background-color: #F5F6F8;
+    height: 1000px;
+}
+.Home h1{
+    font-weight: 400;
+    color: gray;
+    margin: 0px;
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    margin-left: 100px;
+    padding-top: 30px;
+    
+}
+.me{
+    font-weight: 600;
+    color:#423F3E ;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}

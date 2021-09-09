@@ -1,0 +1,25 @@
+html,body{
+    margin-top: 0px;
+}
+.main{
+    margin-top: 0px;
+    background-color: #ffffffff;
+    margin-top: -55px;
+    border-radius: 89px;
+
+
+    
+}
+
+.title{
+    margin-top: 0px;
+    color: #28C8AB;
+    margin-left: 100px;
+    padding-top:50px ;
+    font-size: 32px;
+}
+.assessment-cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+}

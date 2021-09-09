@@ -1,0 +1,21 @@
+.banner{
+    background-color: #FFFFFF;
+    border: 0.5px solid #C2C2C2;
+    margin: 20px auto;
+    width: 90%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.banner h2{
+    padding: 40px 50px;
+    color: #424242;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.mock{
+    font-weight: 700;
+    font-size: 26px;
+    opacity: 1;
+}

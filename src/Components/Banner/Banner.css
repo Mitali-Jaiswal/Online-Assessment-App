@@ -1,0 +1,78 @@
+body{
+    margin-top: 0px;
+}
+.Banner{
+    border-top-left-radius:45px ;
+    border-top-right-radius: 45px;
+    background-color: #ffffff;
+    margin-top: -30px;
+
+
+}
+.innerComponent{
+    padding: 100px;
+    margin-left: 100px;
+    height: 260px;
+   
+}
+.innerComponent h2{
+    color: #423F3E;
+    font-size: 30px;
+}
+
+.innerComponent h2 span{
+    color: #393E46;
+    font-weight: 400;
+}
+.innerComponent h4{
+    color: #393E46;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.takeTest{
+    width: 430px;
+    height: 45px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid grey;
+    color: grey;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    padding: 10px 70px;
+    
+}
+
+/**** second Banner ***/
+.innerComponent2{
+    background-color:#28C8AB ;
+    height: 490px;
+    border-top-left-radius:89px ;
+    border-top-right-radius: 89px;
+    display: flex;
+    z-index: -1;
+    justify-content: space-between;
+}
+.innerComponent2 img{
+    margin-top: -20px;
+    margin-left: 120px;
+    border-radius: 50px;
+   height: 350px;
+}
+
+.innerComponent2 div{
+    margin-right: 250px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+.innerComponent2 div h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.innerComponent2 div p{
+    color: #F7F7F7;
+    opacity: 0.8;
+}

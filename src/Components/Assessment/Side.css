@@ -1,0 +1,10 @@
+.side{
+    width: 25%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border: 0.5px solid #C2C2C2;
+    height: 500px;
+}
+.side img{
+    width: 380px;
+}

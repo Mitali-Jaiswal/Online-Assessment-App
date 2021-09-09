@@ -1,0 +1,47 @@
+.footer{
+
+    margin: 20px auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    background-color: #F5F6F8;
+}
+
+.f-1{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1-ele {
+    width: 25%;
+    font-size: 14px;
+    color: #22262A;
+    margin-left: 60px;
+    
+}
+.desc{
+    font-size: 12px;
+}
+
+.ishop{
+    margin-top: 5px;
+    font-size: 32px;
+    margin-bottom: 2px;
+    color: #C1C8CE;font-weight: 500;
+}
+
+
+
+.follow{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #22262A;
+
+}
+
+.f-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
