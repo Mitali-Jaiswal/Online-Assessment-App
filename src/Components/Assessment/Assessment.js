@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Assessment.css';
 import {QuizData} from '../../QuizData'
 import Banner from './Banner';
-import Side from './Side';
+
 
 export default class Assessment extends Component {
 
@@ -117,7 +117,6 @@ export default class Assessment extends Component {
                         </p>
                     </div>
                 </div>
-                <Side />
                 </div>
                 <Banner />
                 </>
@@ -145,7 +144,7 @@ export default class Assessment extends Component {
                             </p>
                             )
                     }
-                    <button className="previous">PREVIOUS</button>
+        
                     {currentIndex < QuizData.length - 1 &&
                     <button className="next" disabled={this.state.disabled} onClick={this.nextQuestionHander}>
                         SAVE &amp; NEXT
@@ -163,7 +162,6 @@ export default class Assessment extends Component {
 
                 
             </div>
-            <Side />
             </div>
             </>
         )

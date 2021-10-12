@@ -49,17 +49,10 @@
 .selected {
     background: #28C8AB !important;
 }
-.previous{
-    margin-top: 50px;
-    margin-left: 200px;
-    background-color: #C2C2C2;
-    border: 0px;
-    padding: 12px 20px ;
-    color: #FFFFFF;
-}
+
 
 .next{
-    margin-left: 50px;
+    margin: 20px 40px;
     background-color: #1A67DD;
     color: #FFFFFF;
     border: 0px;
@@ -132,4 +125,13 @@
 .flex{
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width:480px) {
+    .assessment{
+        width: 90%;
+        margin: 20px 10px;
+    }
+
+    
 }

@@ -4,7 +4,6 @@ html,body{
 .main{
     margin-top: 0px;
     background-color: #ffffffff;
-    margin-top: -55px;
     border-radius: 89px;
 
 
@@ -22,4 +21,15 @@ html,body{
     display: flex;
     justify-content: space-around;
     margin: 50px 150px;
+}
+
+
+@media screen and (max-width:720px) {
+    .assessment-cards{
+        flex-direction: column;
+        margin: 20px 40px;
+    }
+    .title{
+        font-size: 28px;
+    }
 }
